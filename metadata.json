@@ -1,0 +1,18 @@
+{
+	"author": "Gary A. Stafford",
+	"dependencies": [],
+	"license": "Apache-2.0",
+	"name": "garystafford-haproxy_node_config",
+	"operatingsystem_support": [{
+			"operatingsystem": "CentOS",
+			"operatingsystemrelease": [ "6.6"
+			]
+		}
+	],
+	"project_page": "",
+	"requirements": [],
+	"source": "TBD",
+	"summary": "Configure HAProxy for load-balanced MEAN.io application",
+	"tags": [],
+	"version": "0.1.0"
+}
