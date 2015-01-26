@@ -13,8 +13,8 @@
 class haproxy_node_config () inherits haproxy {
   haproxy::listen { 'puppet00':
     collect_exported => false,
-    ipaddress        => '*',
-    ports            => '80',
+    ipaddress        => '192.168.35.101',
+    ports            => '18140',
     mode             => 'tcp',
     options          => {
       'option'  => ['tcplog', 'ssl-hello-chk'],
