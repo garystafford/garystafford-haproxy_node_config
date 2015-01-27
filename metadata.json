@@ -16,7 +16,7 @@
 	"project_page": "https://github.com/garystafford/garystafford-haproxy_node_config",
 	"requirements": [],
 	"source": "https://github.com/garystafford/garystafford-haproxy_node_config",
-	"summary": "Configure HAProxy for load-balanced MEAN.io application",
+	"summary": "Configure HAProxy for reverse-proxy load-balancing demo",
 	"tags": [ "HAProxy"
 	],
 	"version": "0.1.0"

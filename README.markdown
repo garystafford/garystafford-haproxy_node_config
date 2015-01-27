@@ -1,3 +1,3 @@
 # haproxy_node_config #
 
-This is the haproxy_node_config module. It provides...
+Configure HAProxy for reverse-proxy load-balancing demo.
