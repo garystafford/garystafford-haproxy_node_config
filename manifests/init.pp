@@ -14,7 +14,7 @@ class haproxy_node_config () inherits haproxy {
   haproxy::listen { 'puppet00':
     collect_exported => false,
     ipaddress        => '*',
-    ports            => '18140',
+    ports            => '80',
     mode             => 'http',
     options          => {
       'option'  => ['httplog'],
