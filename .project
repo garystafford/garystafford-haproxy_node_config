@@ -3,7 +3,6 @@
 	<name>garystafford-haproxy_node_config</name>
 	<comment></comment>
 	<projects>
-		<project>haproxy</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
