@@ -9,6 +9,8 @@
 # Requires: see Modulefile
 #
 # Sample Usage:
+#   include 'haproxy_node_config'
+#   class { 'haproxy_node_config': }
 #
 class haproxy_node_config () inherits haproxy {
   haproxy::listen { 'apache-cluster':
