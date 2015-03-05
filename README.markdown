@@ -1,6 +1,6 @@
 # haproxy_node_config #
 
-Configure HAProxy for reverse-proxy load-balancing demo.
+Configure HAProxy for a reverse-proxy load-balancing demo with Apache web server cluster.
 
 ####Useful Commands
 * curl http://haproxy.example.com/haproxy?stats
