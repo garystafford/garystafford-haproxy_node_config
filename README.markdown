@@ -1,8 +1,7 @@
-# haproxy_node_config #
+## HAProxy-Apache-Puppet Demo
+Configure HAProxy for a reverse-proxy load-balancing demo with Apache web server pool. For more information, please read my blog post: [Automate the Provisioning and Configuration of HAProxy and an Apache Web Server Cluster Using Foreman](http://wp.me/p1RD28-1ok).
 
-Configure HAProxy for a reverse-proxy load-balancing demo with Apache web server cluster.
-
-####Useful Commands
+#### Useful Commands
 * curl haproxy.example.com/haproxy?stats
 * curl haproxy.example.com # displays main page via load-balancer
 * cat /etc/haproxy/haproxy.cfg # file managed by Puppet
