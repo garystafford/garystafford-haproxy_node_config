@@ -12,7 +12,9 @@
 #   include 'haproxy_node_config'
 #   class { 'haproxy_node_config': }
 #
-class haproxy_node_config () inherits haproxy {
+class haproxy_node_config {
+  include haproxy
+
   haproxy::listen { 'apache-cluster':
     collect_exported => false,
     ipaddress        => '*',

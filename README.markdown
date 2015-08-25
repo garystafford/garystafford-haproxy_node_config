@@ -3,7 +3,7 @@
 Configure HAProxy for a reverse-proxy load-balancing demo with Apache web server cluster.
 
 ####Useful Commands
-* curl http://haproxy.example.com/haproxy?stats
+* curl haproxy.example.com/haproxy?stats
 * curl haproxy.example.com # displays main page via load-balancer
 * cat /etc/haproxy/haproxy.cfg # file managed by Puppet
 * sudo /etc/init.d/haproxy restart
